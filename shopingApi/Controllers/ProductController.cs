@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-using WebApplication1.Models;
+using shopingApi.Models;
 
-namespace WebApplication1.Controllers
+namespace shopingApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/Products")]
