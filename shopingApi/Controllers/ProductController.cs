@@ -10,6 +10,7 @@ namespace shopingApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/Products")]
+    [ApiController]
     public class ProductController : Controller
     {
         // generate some psudo data to work with since we are not using a Database at the moment
